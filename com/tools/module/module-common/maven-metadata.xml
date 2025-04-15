@@ -3,8 +3,8 @@
   <groupId>com.tools.module</groupId>
   <artifactId>module-common</artifactId>
   <versioning>
-    <latest>1.1.0</latest>
-    <release>1.1.0</release>
+    <latest>1.1.1</latest>
+    <release>1.1.1</release>
     <versions>
       <version>1.0.1</version>
       <version>1.0.2</version>
@@ -31,7 +31,8 @@
       <version>1.0.55</version>
       <version>1.0.56</version>
       <version>1.1.0</version>
+      <version>1.1.1</version>
     </versions>
-    <lastUpdated>20250411000708</lastUpdated>
+    <lastUpdated>20250415062753</lastUpdated>
   </versioning>
 </metadata>
