@@ -1,0 +1,426 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tools.module",
+    "module": "module-amap",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tools.module",
+          "module": "module-common",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "com.mcxiaoke.packer-ng",
+          "module": "helper",
+          "version": {
+            "requires": "2.0.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "com.jakewharton",
+          "module": "butterknife",
+          "version": {
+            "requires": "10.0.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "com.jakewharton",
+          "module": "butterknife-compiler",
+          "version": {
+            "requires": "10.0.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "com.cpiz.bubbleview",
+          "module": "bubbleview",
+          "version": {
+            "requires": "1.0.2"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "io.protostuff",
+          "module": "protostuff-api",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "io.protostuff",
+          "module": "protostuff-core",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "io.protostuff",
+          "module": "protostuff-runtime",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "io.protostuff",
+          "module": "protostuff-collectionschema",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.2"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "module-amap-1.1.2.aar",
+          "url": "module-amap-1.1.2.aar",
+          "size": 100974953,
+          "sha512": "647b6cd89e3b105261a984973684cd8f622966d1ce4219542a04a2a5595ae085bea3fe66093b2b0bd71385bd8e7f24dbca10161e0dd5a1c749027ccf58d1fa0d",
+          "sha256": "ce7fa01d801da3499a74ce7d0fd72d084fcb7c33ccfcbb96ebada317dbfd31a5",
+          "sha1": "0ba0f3b130c5694f1a217f83ff9bb8db51389ca1",
+          "md5": "9b2287eff6c171ca8ca97d7bf1e5669a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tools.module",
+          "module": "module-common",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "com.mcxiaoke.packer-ng",
+          "module": "helper",
+          "version": {
+            "requires": "2.0.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "com.jakewharton",
+          "module": "butterknife",
+          "version": {
+            "requires": "10.0.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "com.jakewharton",
+          "module": "butterknife-compiler",
+          "version": {
+            "requires": "10.0.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "com.cpiz.bubbleview",
+          "module": "bubbleview",
+          "version": {
+            "requires": "1.0.2"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "io.protostuff",
+          "module": "protostuff-api",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "io.protostuff",
+          "module": "protostuff-core",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "io.protostuff",
+          "module": "protostuff-runtime",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "io.protostuff",
+          "module": "protostuff-collectionschema",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.2"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "listenablefuture"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "module-amap-1.1.2.aar",
+          "url": "module-amap-1.1.2.aar",
+          "size": 100974953,
+          "sha512": "647b6cd89e3b105261a984973684cd8f622966d1ce4219542a04a2a5595ae085bea3fe66093b2b0bd71385bd8e7f24dbca10161e0dd5a1c749027ccf58d1fa0d",
+          "sha256": "ce7fa01d801da3499a74ce7d0fd72d084fcb7c33ccfcbb96ebada317dbfd31a5",
+          "sha1": "0ba0f3b130c5694f1a217f83ff9bb8db51389ca1",
+          "md5": "9b2287eff6c171ca8ca97d7bf1e5669a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "module-amap-1.1.2-sources.jar",
+          "url": "module-amap-1.1.2-sources.jar",
+          "size": 551663,
+          "sha512": "8715a1c4f027cbb588c4719462b5c41cca7ae0d4f9abedd343bfc102a4b34841bd4468ab35c3cd6f6d4c4265deefbc26149b1c6883fde09008fad28e27799566",
+          "sha256": "12800ad5366df4b98800573133b20f0b21ecc7d6857ae21911a3e893119c8305",
+          "sha1": "efc303e3ceafcf79b11dfcc74607b5e0084cbdf8",
+          "md5": "971de0f7cd37ded633d1fbd88631e7c4"
+        }
+      ]
+    }
+  ]
+}

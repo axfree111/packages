@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tools.module",
+    "module": "module-upgrade",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tools.module",
+          "module": "module-common",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.tencent.bugly",
+          "module": "crashreport",
+          "version": {
+            "requires": "4.1.9.3"
+          }
+        },
+        {
+          "group": "com.tencent.shiply",
+          "module": "upgrade",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.tencent.shiply",
+          "module": "upgrade-ui",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "module-upgrade-1.1.1.aar",
+          "url": "module-upgrade-1.1.1.aar",
+          "size": 19740,
+          "sha512": "34f0839d81dabb89b13fe3da658e23574c5ae0c83fdab015da35bc0b1f92a625e4fd472b1b9d764771c9cb7186b4b15fc0dfe217e6ba6030fb57b61af858e55c",
+          "sha256": "3d03cf8dd108bff05f3ca599f3f6afec9c621f8e07a41c8eb2f742494dc03fbd",
+          "sha1": "cbb547ef14c6c7e46646e2e35f62adb72cb4a39b",
+          "md5": "c60abfcd84ba134c8edc5a9bae0a47da"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tools.module",
+          "module": "module-common",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.tencent.bugly",
+          "module": "crashreport",
+          "version": {
+            "requires": "4.1.9.3"
+          }
+        },
+        {
+          "group": "com.tencent.shiply",
+          "module": "upgrade",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.tencent.shiply",
+          "module": "upgrade-ui",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "module-upgrade-1.1.1.aar",
+          "url": "module-upgrade-1.1.1.aar",
+          "size": 19740,
+          "sha512": "34f0839d81dabb89b13fe3da658e23574c5ae0c83fdab015da35bc0b1f92a625e4fd472b1b9d764771c9cb7186b4b15fc0dfe217e6ba6030fb57b61af858e55c",
+          "sha256": "3d03cf8dd108bff05f3ca599f3f6afec9c621f8e07a41c8eb2f742494dc03fbd",
+          "sha1": "cbb547ef14c6c7e46646e2e35f62adb72cb4a39b",
+          "md5": "c60abfcd84ba134c8edc5a9bae0a47da"
+        }
+      ]
+    }
+  ]
+}

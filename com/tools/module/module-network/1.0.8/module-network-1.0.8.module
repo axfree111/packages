@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tools.module",
+    "module": "module-network",
+    "version": "1.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tools.module",
+          "module": "module-common",
+          "version": {
+            "requires": "1.0.8"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava3",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "module-network-1.0.8.aar",
+          "url": "module-network-1.0.8.aar",
+          "size": 31599,
+          "sha512": "508c303c98e492a60f177bb15626ec51136a60e1ab3ae64f15f5e91cd090bfb8ed8eafa9aefeaed1cb74fa83b17c89594c453ad6df1deb60edd1c2dd4b2bacfa",
+          "sha256": "95fcb4911e6681074b824ef23c53af97d2dc0b5a6d7b7398ecf8ec7309f07a29",
+          "sha1": "0d51bac3b8b15789f8dda45a628dd9139422379b",
+          "md5": "67de2835bedf900d209e4e47fba12205"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tools.module",
+          "module": "module-common",
+          "version": {
+            "requires": "1.0.8"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava3",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "module-network-1.0.8.aar",
+          "url": "module-network-1.0.8.aar",
+          "size": 31599,
+          "sha512": "508c303c98e492a60f177bb15626ec51136a60e1ab3ae64f15f5e91cd090bfb8ed8eafa9aefeaed1cb74fa83b17c89594c453ad6df1deb60edd1c2dd4b2bacfa",
+          "sha256": "95fcb4911e6681074b824ef23c53af97d2dc0b5a6d7b7398ecf8ec7309f07a29",
+          "sha1": "0d51bac3b8b15789f8dda45a628dd9139422379b",
+          "md5": "67de2835bedf900d209e4e47fba12205"
+        }
+      ]
+    }
+  ]
+}
